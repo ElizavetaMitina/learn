@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+label{
+    display: flex;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 20px;
+    border-radius: 0 0 15px 15px;
+    height: 30px;
+    width: 108px;
+    border: 1px solid #1e77dd;
+    box-shadow: none;
+    margin: 0 0 0 50px;
+    padding: 0 0 0 30px;
+}
+
+.submenu{
+    flex-direction:column;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 20px;
+    height: 30px;
+    width: 140px;
+    text-align: center;
+}
+#menu{
+    display: none;
+}
+.Wrap{
+    display: none;
+}
+label:hover{
+    box-shadow: 0 0 14px dodgerblue;
+}
+#menu:checked~.Wrap{
+    display: block;
+    position: relative;
+    top: 0;
+    left: 50px;
+}
+.submenu:hover{
+    background-color: #1c7fe1;
+}

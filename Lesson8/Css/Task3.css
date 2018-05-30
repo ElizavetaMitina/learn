@@ -1,0 +1,22 @@
+.Violet{
+    background-color: #ba74ff;
+    color: #6b2cc3;
+    margin: 40px 20px;
+    padding: 10px;
+    height: 200px;
+    border-radius: 0 10px 10px 10px;
+    box-shadow: 0 0 6px black;
+}
+.Violet::after, .violet::before{
+    content: 'Caption';
+    position: absolute;
+    background-color: #ba74ff;
+    top: 15px; left: 28px;
+    width: 60px; height: 40px;
+    border: 0.5px solid #572cda;
+    color: #6b2cc3;
+    box-shadow: 0 0 6px black;
+    border-radius: 7px;
+    z-index: -1;
+    padding: 4px 9px;
+}
